@@ -1,0 +1,67 @@
+.main-header {
+	max-width: 100%;
+	width: 100%;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 15px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	z-index: 1000;
+}
+
+.company-name {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: var(--primary-color);
+}
+
+.nav-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav-container ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.nav-container li {
+	list-style: none;
+}
+
+.nav-container a {
+	text-decoration: none;
+	color: var(--secondary-color);
+	font-size: 1rem;
+	transition: color 0.3s ease;
+	font-weight: bold;
+}
+
+.nav-container a:hover {
+	color: #2b6954;
+}
+
+.active {
+	color: #2b6954 !important;
+	border-bottom: #2b6954 2px solid;
+}
+
+.request-service-button {
+	background-color: var(--primary-color);
+	color: var(--neutral-color);
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	font-size: 1rem;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+	text-decoration: none;
+}
+
+.request-service-button:hover {
+	background-color: #2b6954;
+}
