@@ -1,17 +1,86 @@
 [
   {
     "id": 1,
-    "nombre": "Diseño UX/UI",
-    "descripcion": "Diseño de interfaces modernas y accesibles."
+    "nombre": "Auditoría Espacial",
+    "precio": 2400,
+    "descripcion": "Análisis riguroso para optimizar el rendimiento del espacio."
   },
   {
     "id": 2,
-    "nombre": "Desarrollo Frontend",
-    "descripcion": "Creación de interfaces web responsivas."
+    "nombre": "Integridad de Diseño",
+    "precio": 4800,
+    "descripcion": "Supervisión continua para garantizar calidad y consistencia."
   },
   {
     "id": 3,
-    "nombre": "Desarrollo Backend",
-    "descripcion": "Construcción de APIs y lógica del servidor."
+    "nombre": "Diseño y Planificación",
+    "precio": 3500,
+    "descripcion": "Creación estratégica de espacios funcionales y modernos."
+  },
+  {
+    "id": 4,
+    "nombre": "Supervisión de Obra",
+    "precio": 5200,
+    "descripcion": "Control integral del desarrollo y ejecución del proyecto."
+  },
+  {
+    "id": 5,
+    "nombre": "Consultoría Arquitectónica",
+    "precio": 2800,
+    "descripcion": "Asesoramiento profesional para decisiones estructurales."
+  },
+  {
+    "id": 6,
+    "nombre": "Modelado 3D",
+    "precio": 1900,
+    "descripcion": "Visualización avanzada de proyectos mediante renders realistas."
+  },
+  {
+    "id": 7,
+    "nombre": "Interiorismo Funcional",
+    "precio": 2600,
+    "descripcion": "Optimización estética y funcional de espacios interiores."
+  },
+  {
+    "id": 8,
+    "nombre": "Restauración Patrimonial",
+    "precio": 6100,
+    "descripcion": "Recuperación y preservación de estructuras históricas."
+  },
+  {
+    "id": 9,
+    "nombre": "Diseño Sustentable",
+    "precio": 4300,
+    "descripcion": "Soluciones ecológicas para arquitectura eficiente."
+  },
+  {
+    "id": 10,
+    "nombre": "Urbanismo Estratégico",
+    "precio": 7200,
+    "descripcion": "Planificación urbana enfocada en funcionalidad y crecimiento."
+  },
+  {
+    "id": 11,
+    "nombre": "Optimización Lumínica",
+    "precio": 2100,
+    "descripcion": "Estudio de iluminación natural y artificial para cada ambiente."
+  },
+  {
+    "id": 12,
+    "nombre": "Arquitectura Comercial",
+    "precio": 5400,
+    "descripcion": "Diseño de espacios orientados a experiencia y productividad."
+  },
+  {
+    "id": 13,
+    "nombre": "Paisajismo Integral",
+    "precio": 3000,
+    "descripcion": "Diseño armónico de espacios exteriores y áreas verdes."
+  },
+  {
+    "id": 14,
+    "nombre": "Gestión de Proyectos",
+    "precio": 4700,
+    "descripcion": "Coordinación integral de recursos, tiempos y ejecución."
   }
 ]
