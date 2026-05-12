@@ -1,0 +1,178 @@
+.profile-page {
+  .bg-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-bg-color);
+  }
+
+  .bg-container-accent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-bg-color);
+  }
+
+  .sections-container {
+    max-width: 1000px;
+    width: 100%;
+    padding: 75px 0;
+  }
+
+  .profile-info-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 76px;
+  }
+
+  .profile-picture {
+    width: 450px;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .profile-verified {
+    position: absolute;
+    bottom: -18px;
+    left: 400px;
+    padding: 24px;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+  }
+
+  .profile-details-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-role {
+    font-size: smaller;
+    font-weight: 400;
+    color: var(--secondary-color);
+    margin-bottom: 8px;
+  }
+
+  .profile-name {
+    font-size: 56px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 28px;
+  }
+
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .profile-detail-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .profile-detail-label {
+    font-size: smaller;
+    font-weight: 400;
+    color: var(--secondary-color);
+  }
+
+  .profile-detail-value {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(20, 20, 20);
+  }
+
+  .orders-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .orders-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+
+  .orders-description {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--secondary-color);
+    max-width: 600px;
+  }
+
+  .orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 40px;
+  }
+
+  .order-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 8px;
+  }
+
+  .order-image {
+    width: 160px;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .order-details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-right: 400px;
+  }
+
+  .order-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-color);
+  }
+
+  .order-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .order-id {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--secondary-color);
+  }
+
+  .order-separator {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--secondary-color);
+  }
+
+  .order-date {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--secondary-color);
+  }
+
+  .order-status {
+    margin-right: 20px;
+    color: var(--primary-color);
+    background-color: #d0fae4;
+    border-radius: 9999px;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}

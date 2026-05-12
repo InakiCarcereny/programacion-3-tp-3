@@ -50,6 +50,13 @@
 	border-bottom: #2b6954 2px solid;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
 .request-service-button {
 	background-color: var(--primary-color);
 	color: var(--neutral-color);
@@ -62,6 +69,20 @@
 	text-decoration: none;
 }
 
+.profile-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  padding: 10px 10px;
+  border-radius: 9999px;
+  text-decoration: none;
+}
+
 .request-service-button:hover {
 	background-color: #2b6954;
+}
+
+.profile-button:hover {
+  background-color: #2b6954;
 }
