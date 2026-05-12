@@ -1,1 +1,17 @@
-[ ]
+[
+  {
+    "id": 1,
+    "nombre": "Diseño UX/UI",
+    "descripcion": "Diseño de interfaces modernas y accesibles."
+  },
+  {
+    "id": 2,
+    "nombre": "Desarrollo Frontend",
+    "descripcion": "Creación de interfaces web responsivas."
+  },
+  {
+    "id": 3,
+    "nombre": "Desarrollo Backend",
+    "descripcion": "Construcción de APIs y lógica del servidor."
+  }
+]
