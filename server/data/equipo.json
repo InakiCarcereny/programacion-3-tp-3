@@ -3,21 +3,21 @@
     "id": 1,
     "nombre": "Julian Vance",
     "rol": "Curador Principal y Fundador",
-    "foto": "https://i.pravatar.cc/150?img=11",
+    "foto": "/images/about-us-2.png",
     "descripcion": "Julian supervisa la integridad arquitectónica de nuestros flujos de trabajo de servicio, garantizando que cada interacción con el cliente cumpla con nuestro estándar característico de precisión."
   },
   {
     "id": 2,
     "nombre": "Elena Rossi",
     "rol": "Directora de Experiencia",
-    "foto": "https://i.pravatar.cc/150?img=12",
+    "foto": "/images/about-us-3.png",
     "descripcion": "Con experiencia en hospitalidad de lujo, Elena cierra la brecha entre la excelencia logística y la prestación de servicios centrada en el ser humano."
   },
   {
     "id": 3,
     "nombre": "Marcus Chen",
     "rol": "Arquitecto Principal de Sistemas",
-    "foto": "https://i.pravatar.cc/150?img=13",
+    "foto": "/images/about-us-4.png",
     "descripcion": "Marcus diseña la infraestructura digital patentada que permite a nuestros curadores ejecutar solicitudes de servicio complejas sin fricción."
   }
 ]

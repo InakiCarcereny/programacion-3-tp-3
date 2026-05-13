@@ -7,10 +7,10 @@ const getEquipo = async (req, res) => {
     const data = await fs.readFile(filePath, "utf-8");
     const equipo = JSON.parse(data);
 
-    console.log("✅ GET /equipo - Datos enviados correctamente");
+    console.log("GET /equipo - Datos enviados correctamente");
     res.status(200).json(equipo);
   } catch (error) {
-    console.error("❌ Error al leer equipo.json:", error);
+    console.error("Error al leer equipo.json:", error);
     res.status(500).json({ error: "Error al obtener los datos del equipo" });
   }
 };
