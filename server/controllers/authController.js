@@ -1,8 +1,12 @@
 const fs = require("fs").promises;
+const path = require("path");
 
 const postLogin = async (req, res) => {
   try {
-    const data = await fs.readFile("./server/data/login.json", "utf-8");
+    const data = await fs.readFile(
+      path.join(__dirname, "../data/login.json"),
+      "utf-8",
+    );
     const users = JSON.parse(data);
 
     const { email, password } = req.body;
@@ -13,7 +17,7 @@ const postLogin = async (req, res) => {
 
     if (!userFound) {
       return res
-        .status(404)
+        .status(401)
         .json({ error: "No se encontraron usuarios con esas credenciales" });
     }
 
