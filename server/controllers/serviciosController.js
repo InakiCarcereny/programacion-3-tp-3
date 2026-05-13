@@ -19,6 +19,37 @@ const getServicios = async (req, res) => {
 	}
 };
 
+const getServicioById = async (req, res) => {
+	try {
+		const { id } = req.params;
+
+		const dataPath = path.join(__dirname, "../data/servicios.json");
+
+		const data = await fs.readFile(dataPath, "utf-8");
+
+		const servicios = JSON.parse(data);
+
+		const servicio = servicios.find(
+			(servicio) => servicio.id === Number(id)
+		);
+
+		if (!servicio) {
+			return res.status(404).json({
+				msg: "Servicio no encontrado",
+			});
+		}
+
+		res.status(200).json(servicio);
+	} catch (error) {
+		console.error(error);
+
+		res.status(500).json({
+			msg: "Error al obtener servicio",
+		});
+	}
+};
+
 module.exports = {
-	getServicios
+	getServicios,
+	getServicioById,
 };
