@@ -6,6 +6,7 @@ async function renderTeam() {
 
   try {
     const team = await getTeam();
+
     container.innerHTML = team
       .map(
         (member) => `
