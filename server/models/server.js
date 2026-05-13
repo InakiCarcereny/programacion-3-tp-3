@@ -12,6 +12,7 @@ class Server {
 
   middleware() {
     this.app.use(cors());
+    this.app.use("/images", express.static("client/assets/images"));
   }
 
   routes() {
