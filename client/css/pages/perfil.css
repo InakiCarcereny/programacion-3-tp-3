@@ -38,7 +38,7 @@
 
   .profile-verified {
     position: absolute;
-    bottom: -18px;
+    bottom: 4px;
     left: 400px;
     padding: 24px;
     background-color: var(--primary-color);
@@ -48,6 +48,32 @@
   .profile-details-container {
     display: flex;
     flex-direction: column;
+  }
+
+  .profile-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .profile-header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logout-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: var(--primary-color);
+    background-color: #d0fae4;
+    border-radius: 9999px;
+    padding: 6px 12px;
+    border: none;
+    width: 200px;
+    font-weight: 500;
+    cursor: pointer;
   }
 
   .profile-role {
