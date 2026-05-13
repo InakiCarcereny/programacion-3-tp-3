@@ -9,6 +9,7 @@ export async function getTeam() {
     }
 
     const team = await response.json()
+
     return team
   } catch (error) {
     console.error('Error fetching team:', error)
