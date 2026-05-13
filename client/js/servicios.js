@@ -1,15 +1,13 @@
 import { getServices } from "../services/services.js";
 import { URL_PREFIX } from "../lib/url-prefix.js";
 
-async function renderServices() {
-  const container = document.querySelector(".services-cards");
+const container = document.querySelector(".services-cards");
+const input = document.querySelector("#services-search");
 
-  try {
-    const services = await getServices();
-
-    container.innerHTML = services
-      .map(
-        (servicio) => `
+function render(services) {
+  container.innerHTML = services
+    .map(
+      (servicio) => `
       <article class="card">
         <img src="${URL_PREFIX}${servicio.imagen}" alt="${servicio.nombre}">
         <div class="card-box">
@@ -19,8 +17,23 @@ async function renderServices() {
         </div>
       </article>
     `,
-      )
-      .join("");
+    )
+    .join("");
+}
+
+async function renderServices() {
+  try {
+    const services = await getServices();
+
+    render(services);
+
+    input.addEventListener("input", (e) => {
+      const query = e.target.value.toLowerCase();
+      const filtered = services.filter((s) =>
+        s.nombre.toLowerCase().includes(query),
+      );
+      render(filtered);
+    });
   } catch (error) {
     container.innerHTML = "<p>Error al cargar los servicios.</p>";
   }
