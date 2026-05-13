@@ -14,6 +14,7 @@ form.addEventListener("submit", async (e) => {
 
   try {
     const data = await login(email, password);
+    sessionStorage.setItem("user", JSON.stringify(data.user));
     window.location.href = "../index.html";
   } catch (error) {
     errorMsg.style.display = "block";
