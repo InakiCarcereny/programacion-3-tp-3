@@ -240,6 +240,13 @@
     }
   }
 
+  .login-error {
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+    display: none;
+  }
+
   .login-register {
     font-size: small;
     color: var(--secondary-color);
