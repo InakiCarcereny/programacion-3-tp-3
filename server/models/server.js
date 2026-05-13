@@ -12,23 +12,22 @@ class Server {
 
   middleware() {
     this.app.use(cors());
+    this.app.use(express.json());
+    this.app.use("/images", express.static("client/assets/images"));
   }
 
   routes() {
-    //this.app.use("/servicios", require("../routes/serviciosRoutes"));
-    //this.app.use("/equipo", require("../routes/equipoRoutes"));
+    this.app.use("/servicios", require("../routes/serviciosRoutes"));
+    this.app.use("/equipo", require("../routes/equipoRoutes"));
     this.app.use("/perfil", require("../routes/perfilRoutes"));
-    //this.app.use("/login", require("../routes/authRoutes"));
+    this.app.use("/login", require("../routes/authRoutes"));
 
-    // manejo de errores
-    this.app.use((_req, res, _next) => {
-      return res.status(400).json({ msg: "Error." });
-    });
-    this.app.use((err, _req, res, _next) => {
+    this.app.use((err, req, res, next) => {
       console.error(err.stack);
       return res.status(404).json({ msg: "Error. Pagina no encontrada" });
     });
-    this.app.use((err, _req, res, _next) => {
+
+    this.app.use((err, req, res, next) => {
       console.error(err.stack);
       return res.status(500).json({ msg: "Internal Server Error" });
     });
