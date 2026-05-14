@@ -83,7 +83,7 @@ La configuración del entorno se estandarizó mediante **Biome** como linter y f
 | **Equipo** | Devuelve todos los miembros del equipo almacenados en `equipo.json`. |
 | **Perfil** | Busca un usuario por ID en `usuarios.json` y devuelve sus datos completos. |
 | **Servicios** | Devuelve todos los servicios o uno específico por ID desde `servicios.json`. |
-| **Archivos estáticos** | Las imágenes se sirven desde `client/assets/images` bajo la ruta `/images`. |
+| **Archivos estáticos** | Las imágenes se sirven desde `docs/assets/images` bajo la ruta `/images`. |
 
 **`Server`**
 
@@ -98,13 +98,13 @@ constructor() {
 }
 ```
 
-**`middleware()`:** Registra tres middlewares globales. `cors()` permite que el frontend pueda hacer peticiones al backend desde un origen distinto. `express.json()` habilita el parseo automático del body en formato JSON para los requests POST. `express.static()` sirve las imágenes de `client/assets/images` bajo la ruta `/images`, permitiendo que el frontend las consuma como archivos estáticos.
+**`middleware()`:** Registra tres middlewares globales. `cors()` permite que el frontend pueda hacer peticiones al backend desde un origen distinto. `express.json()` habilita el parseo automático del body en formato JSON para los requests POST. `express.static()` sirve las imágenes de `docs/assets/images` bajo la ruta `/images`, permitiendo que el frontend las consuma como archivos estáticos.
 
 ```js
 middleware() {
   this.app.use(cors());
   this.app.use(express.json());
-  this.app.use("/images", express.static("client/assets/images"));
+  this.app.use("/images", express.static("docs/assets/images"));
 }
 ```
 
