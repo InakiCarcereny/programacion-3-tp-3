@@ -1,4 +1,4 @@
-![Preview](/client/assets/images/image.png)
+![Preview](/docs/assets/images/image.png)
 
 <div align="center">
 
