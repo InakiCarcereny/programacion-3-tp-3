@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "nombre": "Auditoría Espacial",
+    "precio": 2400,
+    "descripcion": "Análisis riguroso para optimizar el rendimiento del espacio.",
+    "imagen": "/images/service-1.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Integridad de Diseño",
+    "precio": 4800,
+    "descripcion": "Supervisión continua para garantizar calidad y consistencia.",
+    "imagen": "/images/service-2.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Diseño y Planificación",
+    "precio": 3500,
+    "descripcion": "Creación estratégica de espacios funcionales y modernos.",
+    "imagen": "/images/service-3.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Supervisión de Obra",
+    "precio": 5200,
+    "descripcion": "Control integral del desarrollo y ejecución del proyecto.",
+    "imagen": "/images/service-8.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Consultoría Arquitectónica",
+    "precio": 2800,
+    "descripcion": "Asesoramiento profesional para decisiones estructurales.",
+    "imagen": "/images/service-9.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Modelado 3D",
+    "precio": 1900,
+    "descripcion": "Visualización avanzada de proyectos mediante renders realistas.",
+    "imagen": "/images/service-7.png"
+  },
+  {
+    "id": 7,
+    "nombre": "Interiorismo Funcional",
+    "precio": 2600,
+    "descripcion": "Optimización estética y funcional de espacios interiores.",
+    "imagen": "/images/service-11.png"
+  },
+  {
+    "id": 8,
+    "nombre": "Restauración Patrimonial",
+    "precio": 6100,
+    "descripcion": "Recuperación y preservación de estructuras históricas.",
+    "imagen": "/images/service-12.png"
+  },
+  {
+    "id": 9,
+    "nombre": "Diseño Sustentable",
+    "precio": 4300,
+    "descripcion": "Soluciones ecológicas para arquitectura eficiente.",
+    "imagen": "/images/service-13.png"
+  },
+  {
+    "id": 10,
+    "nombre": "Urbanismo Estratégico",
+    "precio": 7200,
+    "descripcion": "Planificación urbana enfocada en funcionalidad y crecimiento.",
+    "imagen": "/images/service-14.png"
+  },
+  {
+    "id": 11,
+    "nombre": "Optimización Lumínica",
+    "precio": 2100,
+    "descripcion": "Estudio de iluminación natural y artificial para cada ambiente.",
+    "imagen": "/images/service-15.png"
+  },
+  {
+    "id": 12,
+    "nombre": "Arquitectura Comercial",
+    "precio": 5400,
+    "descripcion": "Diseño de espacios orientados a experiencia y productividad.",
+    "imagen": "/images/service-5.png"
+  },
+  {
+    "id": 13,
+    "nombre": "Paisajismo Integral",
+    "precio": 3000,
+    "descripcion": "Diseño armónico de espacios exteriores y áreas verdes.",
+    "imagen": "/images/service-10.png"
+  },
+  {
+    "id": 14,
+    "nombre": "Gestión de Proyectos",
+    "precio": 4700,
+    "descripcion": "Coordinación integral de recursos, tiempos y ejecución.",
+    "imagen": "/images/service-6.png"
+  }
+]

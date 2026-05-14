@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap');
+
+.order-page {
+  .titlesections, .descrleft, .descinfo, .right{
+    font-family: 'Inter', sans-serif;
+    color: #334155;
+    line-height: 24px;
+  }
+
+  .maingeneral {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    padding: 75px 0;
+  }
+
+  .bg-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .sections-container {
+    max-width: 1000px;
+    width: 100%;
+    padding: 75px 0;
+  }
+
+  .left {
+    padding-right: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .textmini{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #0B513D;
+  }
+
+  .lefttittle {
+    font-family: 'Manrope', sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 64px;
+    color: #064E3B;
+    margin-bottom: 32px;
+  }
+
+  .lefttittle span {
+    color: #707974;
+  }
+
+  .descrleft {
+    font-size: 16px;
+    color: #707974;
+    margin-bottom: 48px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .textinfo h3 {
+    font-family: 'Manrope', sans-serif;
+    color: #064E3B;
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+
+  .descinfo {
+    font-size: 16px;
+    color: #64748b;
+  }
+
+  .imagen {
+    margin-top: 48px;
+    border-radius: 16px;
+    overflow: hidden;
+    height: 300px;
+    position: relative;
+  }
+
+  .imagenpc {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .right {
+    background-color: #f1f3f5;
+    padding: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    border-radius: 32px;
+  }
+
+  .titlesections{
+    font-size: 10px;
+  }
+
+  .contentright {
+    width: 100%;
+    max-width: 560px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .tittlelabel{
+    margin-left: 2px;
+    margin-bottom: 4px;
+  }
+
+  .seccion{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-bottom: 8px;
+  }
+
+  .firstsection, .secondsection, .thirdsection{
+    margin-bottom: 8px;
+  }
+
+  .firstsection label, .secondsection label{
+    text-transform: uppercase;
+    height: auto;
+    font-size: 12px;
+    font-weight: 700;
+    color: #334155;
+  }
+
+  .seccionchekbox label{
+    font-size: 12px;
+    font-weight: 700;
+    color: #334155;
+  }
+
+  .campo{
+    width: 100%;
+    margin-right: 16px;
+    flex-direction: column;
+  }
+
+
+  .firstsection, .secondsection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    gap: 20px;
+  }
+
+  .firstsection input{
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    padding: 16px;
+    height: 52px;
+    background-color: #ffffff;
+    font-size: 12px;
+  }
+
+  input::placeholder {
+    color: #94a3b8;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+  }
+
+  input[type="date"]{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .secondsection input{
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    padding: 16px;
+    height: 52px;
+    background-color: #ffffff;
+    font-size: 12px;
+  }
+
+  .select-wrapper select{
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    height: 52px;
+    width: 100%;
+    padding: 12px;
+  }
+
+  .select-wrapper select:invalid,
+  .select-wrapper select:has(option[value=""]:checked) {
+    color: #000000;
+    padding: 12px;
+    font-family: 'Inter', sans-serif;
+    font-family: 16px;
+  }
+
+  .seccionchekbox p{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .checkboxright, .checkboxleft{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .optionscheckbox{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .optionscheckbox label{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+  .optionscheckbox input[type="checkbox"]{
+    margin: 0;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+
+  .thirdsection{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+
+  .thirdsection textarea{
+    width: 100%;
+    height: 136px;
+    border: none;
+    border-radius: 8px;
+    resize: none;
+    font-family: 'Manrope', sans-serif;
+    padding: 12px;
+    font-size: 12px;
+  }
+
+  .final-buttons{
+    font-family: 'Inter', sans-serif;
+  }
+
+  .send{
+    background-color: #064e3b;
+    color:white;
+    text-decoration: none;
+    border: none;
+    padding: 16px 58px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .send:hover{
+    background-color: #2b6954;
+  }
+
+  .reset{
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    background-color: #f1f3f5;
+    padding: 16px 58px;
+    color:#2D3133;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .secure, .responsetime{
+    display: flex;
+  }
+
+  .icon-container.shield, .icon-container.clock{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 16px;
+    width: 48px;
+    height: 48px;
+    padding: 12px 8px;
+    border-radius: 8px;
+    font-size: 40px;
+  }
+
+  .icon-container.shield{
+    background-color: #105743;
+    color:#81dabc;
+  }
+
+  .icon-container.clock{
+    background-color: #E0E7FF;
+    color: #475569;
+  }
+}

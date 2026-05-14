@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "nombre": "Alexander Vanguard",
+    "email": "a.vanguard@curatorial.com",
+    "rol": "CUENTA PERSONAL DEL CURADOR",
+    "fechaRegistro": "Octubre 14 - 2023",
+    "nivelCuenta": "Nivel Elite de Servicio",
+    "telefono": "+34 123 456 789",
+    "empresa": "Curatorial Service Architecture",
+    "imagenPerfil": "/images/profile-1.png",
+    "pedidos": [
+      {
+        "id": 1,
+        "imagen": "/images/service-1.png",
+        "nombre": "Auditoría Espacial",
+        "fecha": "Marzo 12 - 2024"
+      },
+      {
+        "id": 2,
+        "imagen": "/images/service-2.png",
+        "nombre": "Integridad de Diseño",
+        "fecha": "Abril 05 - 2024"
+      },
+      {
+        "id": 3,
+        "imagen": "/images/service-3.png",
+        "nombre": "Diseño y Planificación",
+        "fecha": "Abril 20 - 2024"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Martín Ramírez",
+    "email": "user2@example.com",
+    "rol": "Usuario",
+    "fechaRegistro": "Marzo 18 - 2024",
+    "nivelCuenta": "Nivel Premium",
+    "telefono": "+54 11 5214 3322",
+    "empresa": "Ramírez Curatorial",
+    "imagenPerfil": "/images/profile-3.png",
+    "pedidos": [
+      {
+        "id": 4,
+        "imagen": "/images/service-8.png",
+        "nombre": "Supervisión de Obra",
+        "fecha": "Marzo 25 - 2024"
+      },
+      {
+        "id": 5,
+        "imagen": "/images/service-9.png",
+        "nombre": "Consultoría Arquitectónica",
+        "fecha": "Abril 10 - 2024"
+      },
+      {
+        "id": 6,
+        "imagen": "/images/service-7.png",
+        "nombre": "Modelado 3D",
+        "fecha": "Abril 15 - 2024"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Test User",
+    "email": "test3@test.com",
+    "rol": "Usuario",
+    "fechaRegistro": "Enero 09 - 2024",
+    "nivelCuenta": "Nivel Estándar",
+    "telefono": "+54 11 6543 2109",
+    "empresa": "Test Curatorial",
+    "imagenPerfil": "/images/profile-5.png",
+    "pedidos": [
+      {
+        "id": 7,
+        "imagen": "/images/service-11.png",
+        "nombre": "Interiorismo Funcional",
+        "fecha": "Marzo 30 - 2024"
+      },
+      {
+        "id": 8,
+        "imagen": "/images/service-12.png",
+        "nombre": "Restauración Patrimonial",
+        "fecha": "Abril 12 - 2024"
+      },
+      {
+        "id": 9,
+        "imagen": "/images/service-13.png",
+        "nombre": "Diseño Sustentable",
+        "fecha": "Abril 18 - 2024"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Daniela Gómez",
+    "email": "demo4@demo.com",
+    "rol": "Usuario",
+    "fechaRegistro": "Febrero 22 - 2024",
+    "nivelCuenta": "Nivel Premium",
+    "telefono": "+54 11 4321 0098",
+    "empresa": "Demo Curatorial",
+    "imagenPerfil": "/images/profile-2.png",
+    "pedidos": [
+      {
+        "id": 10,
+        "imagen": "/images/service-14.png",
+        "nombre": "Urbanismo Estratégico",
+        "fecha": "Marzo 28 - 2024"
+      },
+      {
+        "id": 11,
+        "imagen": "/images/service-15.png",
+        "nombre": "Optimización Lumínica",
+        "fecha": "Abril 08 - 2024"
+      },
+      {
+        "id": 12,
+        "imagen": "/images/service-5.png",
+        "nombre": "Arquitectura Comercial",
+        "fecha": "Abril 22 - 2024"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Administrador General",
+    "email": "admin5@admin.com",
+    "rol": "Administrador",
+    "fechaRegistro": "Enero 01 - 2024",
+    "nivelCuenta": "Nivel Elite",
+    "telefono": "+54 11 9000 1122",
+    "empresa": "Curatorial Global",
+    "imagenPerfil": "/images/profile-4.png",
+    "pedidos": [
+      {
+        "id": 13,
+        "imagen": "/images/service-10.png",
+        "nombre": "Paisajismo Integral",
+        "fecha": "Marzo 20 - 2024"
+      },
+      {
+        "id": 14,
+        "imagen": "/images/service-6.png",
+        "nombre": "Gestión de Proyectos",
+        "fecha": "Abril 05 - 2024"
+      },
+      {
+        "id": 1,
+        "imagen": "/images/service-1.png",
+        "nombre": "Auditoría Espacial",
+        "fecha": "Abril 25 - 2024"
+      }
+    ]
+  }
+]

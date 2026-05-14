@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CURATORIAL - Pedido</title>
+  <meta name="description"
+    content="Inicie su experiencia a medida. Cada solicitud es tratada como un proyecto exclusivo, con la máxima confidencialidad y rigor analítico. Comparta los parámetros de su requerimiento para que nuestros especialistas comiencen a estructurar una solución de servicio perfectamente alineada con sus expectativas.">
+  <link rel="icon" type="image/png" href="../assets/favicon/favicon.png">
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body class="order-page">
+  <header class="main-header">
+    <h2 class="company-name">
+      CURATORIAL
+    </h2>
+
+    <nav class="nav-container">
+      <ul>
+        <li><a href="/client/index.html">Inicio</a></li>
+        <li><a href="./servicios.html">Servicios</a></li>
+        <li><a href="./equipo.html">Sobre Nosotros</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a class="request-service-button" href="./pedido.html">
+        Solicitar Servicio
+      </a>
+
+      <a class="profile-button" href="./perfil.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="icon icon-tabler icons-tabler-outline icon-tabler-user">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+          <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <main class="maingeneral">
+    <section class="left">
+      <span class="textmini">FASE DE COMPROMISO</span>
+
+      <h1 class="lefttittle">Arquitectura de <br> <span>Cuidado</span> Personalizado.</h1>
+
+      <p class="descrleft">Tratamos cada solicitud como un proyecto único. Por favor, proporcione los detalles
+        esenciales para comenzar su viaje curado con nuestra arquitectura de servicios editoriales. </p>
+
+      <div class="info">
+        <div class="secure">
+          <div class="icon-container shield">
+            <span class="material-symbols-outlined">verified_user</span>
+          </div>
+          <div class="textinfo">
+            <h3>Procesamiento Seguro</h3>
+            <p class="descinfo">Sus datos se manejan con precisión administrativa y absoluta privacidad.</p>
+          </div>
+        </div>
+
+        <div class="responsetime">
+          <div class="icon-container clock">
+            <span class="material-symbols-outlined">schedule</span>
+          </div>
+          <div class="textinfo">
+            <h3>Tiempo de Respuesta de 24h</h3>
+            <p class="descinfo">Nuestros curadores revisan y validan todas las solicitudes de servicio en un
+              plazo de un día hábil.</p>
+          </div>
+        </div>
+
+        <div class="imagen">
+          <img class="imagenpc" src="../assets/images/order-1.png"
+            alt="Imagen de una computadora encima de una mesa de madera, al lado de esta una taza de café.">
+          <div class="overlay"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="right">
+      <div class="contentright">
+        <form method="post" target="_blank">
+
+          <div class="seccion">
+            <p class="titlesections">01. Identidad</p>
+          </div>
+          <div class="firstsection">
+            <div class="campo">
+              <div class="tittlelabel">
+                <label for="nombre-completo">Nombre Legal</label>
+              </div>
+              <input type="text" name="nombre-completo" id="nombre-completo" placeholder="E.j. Juan">
+            </div>
+            <div class="campo">
+              <div class="tittlelabel">
+                <label for="numero">Teléfono de Referencia</label>
+              </div>
+              <input type="tel" name="numero" id="numero" placeholder="+54 (555) 0000000">
+            </div>
+          </div>
+
+          <div class="seccion">
+            <p class="titlesections">02. Especificaciones</p>
+          </div>
+
+          <div class="secondsection">
+            <div class="campo">
+              <div class="tittlelabel">
+                <label for="servicios">Tipo de servicio</label>
+              </div>
+
+              <div class="select-wrapper">
+                <select id="servicios" name="servicios">
+                  <span class="material-symbols-outlined arrow">expand_more</span>
+                  <option class="select-option" value="" disabled selected>Selecciona una opción</option>
+                  <option value="1">Auditoría Espacial</option>
+                  <option value="2">Estrategia de Activos</option>
+                  <option value="3">Integridad del Diseño</option>
+                </select>
+              </div>
+
+            </div>
+
+            <div class="campo">
+              <div class="tittlelabel">
+                <label for="fecha">Fecha de inicio</label>
+              </div>
+
+              <input type="date" name="fecha" id="fecha">
+            </div>
+          </div>
+
+          <div class="seccionchekbox">
+            <div class="tittlelabel">
+              <p>Requisitos Adicionales</p>
+            </div>
+
+            <div class="optionscheckbox">
+              <div class="checkboxright">
+                <label for="propridad">
+                  <input type="checkbox" name="propridad" id="propridad"> Ejecución Prioritaria
+                </label>
+
+                <label for="on-site">
+                  <input type="checkbox" name="on-site" id="on-site"> Consulta In Situ
+                </label>
+              </div>
+
+              <div class="checkboxleft">
+                <label for="nda">
+                  <input type="checkbox" name="nda" id="nda"> Confidencialidad
+                </label>
+
+                <label for="recurring">
+                  <input type="checkbox" name="recurring" id="recurring"> Servicio recurrente
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="seccion">
+            <p class="titlesections">03. Descripción del Proyecto</p>
+          </div>
+
+          <div class="thirdsection">
+            <div class="campo">
+              <div class="tittlelabel">
+                <label for="comentarios">Comentarios Adicionales</label> <br>
+              </div>
+
+              <textarea name="comentarios" id="comentarios" rows="4"
+                placeholder="Describe los detalles de tu solicitud..."></textarea>
+            </div>
+          </div>
+
+          <div class="final-buttons">
+            <button class="send" type="submit">Enviar</button>
+
+            <button class="reset" type="reset">Restablecer</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="bg-container">
+      <section class="sections-container">
+        <div class="footer-container">
+          <div class="footer-content">
+            <h4>
+              CURATORIAL
+            </h4>
+
+            <p>
+              Elevar los estándares de servicio a través de la curaduría experta y la arquitectura
+              profesional.
+            </p>
+          </div>
+
+          <div class="footer-content">
+            <h4 class="footer-label">
+              EXPLORAR
+            </h4>
+
+            <ul class="footer-list">
+              <li class="footer-element">SERVICIOS</li>
+              <li class="footer-element">PORTAFOLIO</li>
+              <li class="footer-element">NUESTRA VISIÓN</li>
+            </ul>
+          </div>
+
+          <div class="footer-content">
+            <h4 class="footer-label">
+              CONECTAR
+            </h4>
+
+            <ul class="footer-list">
+              <li class="footer-element">LINKEDIN</li>
+              <li class="footer-element">INSTAGRAM</li>
+              <li class="footer-element">CONTACTO</li>
+            </ul>
+          </div>
+
+          <div class="footer-content">
+            <h4 class="footer-label">
+              LEGAL
+            </h4>
+
+            <ul class="footer-list">
+              <li class="footer-element">POLÍTICA DE PRIVACIDAD</li>
+              <li class="footer-element">TÉRMINOS DE SERVICIO</li>
+              <li class="footer-element">CONFIGURACIÓN DE COOKIES</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="separator-line">
+
+        </div>
+
+        <p class="rights">
+          © 2026 Curatorial Service Architecture. Todos los derechos reservados.
+        </p>
+      </section>
+    </div>
+  </footer>
+</body>
+
+</html>
